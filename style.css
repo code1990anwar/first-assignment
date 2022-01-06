@@ -33,10 +33,11 @@ p{
    padding-top: 100px;
 }
 .button{
-    background-image:linear-gradient(orange; violet);
+    background-image:linear-gradient(orange, violet);
     font-display: large;
     font-weight: 800px;
     padding-left: 100px;
+    box-shadow: 4px 4px 8px peru;
 }
 #word{
     font-weight: bolder;
@@ -45,15 +46,67 @@ p{
 .second-stage{
     display: flex;
 }
-.logo img{
+.logo-one img{
     max-width: 40%;
     height: auto;
+    box-shadow: 80px 80px 160px orangered;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-left: 10px;
+    padding-right: 20px;
+    background-color:orangered ;
+
 }
-}
-.dividend{
-    border: 2px solid;
-    max-width: 20%;
+.logo-two img{
+    max-width: 40%;
     height: auto;
-    padding-left: 20px;
-    
+    box-shadow: 80px 80px 160px aquamarine;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-left: 10px;
+    padding-right: 20px;
+    background-color: aquamarine ;
+
+}
+.logo-three img{
+    max-width: 40%;
+    height: auto;
+    box-shadow: 80px 80px 160px steelblue;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-left: 10px;
+    padding-right: 20px;
+    background-color: steelblue ;
+
+}
+.dividend-one{
+    box-shadow: 20px 20px 40px orangered;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-left: 10px;
+    padding-right: 20px;
+    border-radius: 15px;
+    border: thin;
+    background-color: orangered;
+
+}
+.dividend-two{
+    box-shadow: 20px 20px 40px aquamarine;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-left: 10px;
+    padding-right: 20px;
+    border-radius: 15px;
+    border: thin;
+    background-color: aquamarine;
+}
+.dividend-three{
+    box-shadow: 20px 20px 40px steelblue;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-left: 10px;
+    padding-right: 20px;
+    border-radius: 15px;
+    border: thin;
+    background-color: steelblue;
 }
