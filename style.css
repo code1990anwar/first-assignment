@@ -18,6 +18,7 @@ h1{
   }
 .space-left{
     display: flex;
+    text-align: center;
 }
 p{
     font-weight: 200;
@@ -29,8 +30,18 @@ p{
 .img-modified img{
    max-width: 40%;
    height: auto;
-   padding-left: 300px;
+   padding-left: 0%;
+   padding-right: 40%;
    padding-top: 100px;
+    
+}
+.img-change img{
+    max-width: 20%;
+   height: auto;
+   padding-left: 0%;
+   padding-right: 40%;
+   padding-top: 100px;
+
 }
 .button{
     background-image:linear-gradient(orange, violet);
