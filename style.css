@@ -10,15 +10,14 @@ h1{
     color: greenyellow;
 }
 .border-line{
-    border-left-style:  solid;
-    border-left-color: teal;
-    border-left-width: 03px;
-    padding-left: 5px;  
-    
-}
+  border-left: 7px solid;
+  border-image: linear-gradient( blue, yellow);
+  border-image-slice: 2;
+  padding-left: 200px;
+              
+  }
 .space-left{
-    padding-left: 100px;
-    padding-top: 50px;
+    display: flex;
 }
 p{
     font-weight: 200;
@@ -26,4 +25,35 @@ p{
     font-size: large;
     text-align: left;
     padding-left: 100px;
+}
+.img-modified img{
+   max-width: 40%;
+   height: auto;
+   padding-left: 300px;
+   padding-top: 100px;
+}
+.button{
+    background-image:linear-gradient(orange; violet);
+    font-display: large;
+    font-weight: 800px;
+    padding-left: 100px;
+}
+#word{
+    font-weight: bolder;
+    text-align: center;
+}
+.second-stage{
+    display: flex;
+}
+.logo img{
+    max-width: 40%;
+    height: auto;
+}
+}
+.dividend{
+    border: 2px solid;
+    max-width: 20%;
+    height: auto;
+    padding-left: 20px;
+    
 }
